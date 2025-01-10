@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles when using the CMD instruction with multiple commands separated by &&.  The && operator doesn't work as expected within the CMD instruction. This leads to only the first command being executed.  The solution shows how to use an entrypoint script for better control over multiple commands.
